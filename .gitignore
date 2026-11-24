@@ -1,2 +1,47 @@
+# Ignored by Antigravity Daily Backup
+# Build & dependencies
+node_modules/
+.next/
+dist/
+build/
+.gradle/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Heavy media & archives (Github limit 100MB)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.mp3
+*.wav
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.tar.gz
+*.enc
+*.aab
+*.apk
+*.apks
+*.iso
+*.bin
+
+# Secrets & credentials
+.env
+.env.*
+*.session
+*.pem
+*.key
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Polices téléchargées par scripts/build.mjs (retéléchargées au besoin)
 scripts/.cache/
+
